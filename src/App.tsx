@@ -170,7 +170,7 @@ function App() {
             <div>
               <h3 className="text-white font-semibold mb-4">Company</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-white">About</a></li>
+                <li><a href="https://mothersound.dev" className="hover:text-white" target="_blank" rel="noopener noreferrer">About</a></li>
                 <li><a href="https://github.com/camdenwebster/MovingBox/blob/main/PRIVACY_POLICY.md" className="hover:text-white" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
                 <li><a href="https://github.com/camdenwebster/MovingBox/blob/main/EULA.md" className="hover:text-white" target="_blank" rel="noopener noreferrer">Terms of Service</a></li>
               </ul>
