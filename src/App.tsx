@@ -10,7 +10,7 @@ function App() {
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center">
               <img 
-                src="https://raw.githubusercontent.com/camdenwebster/MovingBox/main/MovingBox/Assets.xcassets/AppIcon.appiconset/Light%20Icon.png"
+                src="https://raw.githubusercontent.com/camdenwebster/MovingBox/refs/heads/main/icon_shadow.png"
                 alt="MovingBox Logo" 
                 className="h-8 w-8"
               />
@@ -151,7 +151,7 @@ function App() {
             <div>
               <div className="flex items-center text-white mb-4">
                 <img 
-                  src="https://raw.githubusercontent.com/camdenwebster/MovingBox/main/MovingBox/Assets.xcassets/AppIcon.appiconset/Light%20Icon.png"
+                  src="https://raw.githubusercontent.com/camdenwebster/MovingBox/refs/heads/main/icon_shadow.png"
                   alt="MovingBox Logo" 
                   className="h-8 w-8"
                 />
