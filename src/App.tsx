@@ -102,12 +102,12 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4 dark:text-white">Loved by Users</h2>
-            <div className="flex justify-center items-center space-x-1">
+            {/* <div className="flex justify-center items-center space-x-1">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="h-6 w-6 text-yellow-400 fill-current" />
               ))}
-            </div>
-            <p className="text-gray-600 dark:text-gray-300 mt-2">Average 4.8 rating on the App Store</p>
+            </div> */}
+            {/* <p className="text-gray-600 dark:text-gray-300 mt-2">Average 4.8 rating on the App Store</p> */}
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-xl">
@@ -130,9 +130,6 @@ function App() {
       <section id="download" className="py-20 bg-black text-white dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Get Started Today</h2>
-          <p className="text-xl mb-8 text-gray-300">
-            Available on iOS devices running iOS 15.0 or later
-          </p>
           <div className="flex justify-center space-x-4">
             <a 
               href="mailto:beta@movingbox.ai"
