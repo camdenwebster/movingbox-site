@@ -28,30 +28,34 @@ function App() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
+          {/* Changed from grid to flex with column direction */}
+          <div className="flex flex-col items-center text-center">
+            {/* Image now comes first */}
+            <div className="relative mb-10">
+              <img 
+                src="/images/hero.png"
+                alt="iPhone with MovingBox app"
+                className="max-w-full h-auto"
+              />
+            </div>
+            
+            {/* Text content below the image */}
+            <div className="max-w-2xl">
               <h1 className="text-5xl font-bold leading-tight text-gray-900 dark:text-white mb-6">
                 Turn Photos into Peace of Mind
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
                 Let AI transform your home inventory management into a quick, effortless experience. Just snap photos, and we'll do the rest.
               </p>
-              <div className="flex items-center space-x-4">
+              <div className="flex justify-center space-x-4">
                 <a 
-                  href="#download"
+                  href="mailto:beta@movingbox.ai"
                   className="inline-flex items-center px-6 py-3 rounded-lg bg-black dark:bg-white text-white dark:text-black hover:bg-gray-900 dark:hover:bg-gray-100 transition-colors"
                 >
-                  Download on the App Store
+                  Join the MovingBox Beta
                   <ExternalLink className="ml-2 h-5 w-5" />
                 </a>
               </div>
-            </div>
-            <div className="relative">
-              <img 
-                src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&q=80&w=800"
-                alt="iPhone with MovingBox app"
-                className="rounded-2xl shadow-2xl"
-              />
             </div>
           </div>
         </div>
@@ -131,15 +135,15 @@ function App() {
           </p>
           <div className="flex justify-center space-x-4">
             <a 
-              href="#"
+              href="mailto:beta@movingbox.ai"
               className="inline-flex items-center px-8 py-4 rounded-lg bg-white text-black dark:bg-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
             >
-              Download on the App Store
+              Join the MovingBox Beta
               <ExternalLink className="ml-2 h-5 w-5" />
             </a>
           </div>
           <p className="mt-8 text-gray-400">
-            Need help? Contact us at contact@movingbox.ai
+            Need help? <a href="mailto:contact@movingbox.ai" className="text-gray-300 hover:text-white underline">Contact us</a>
           </p>
         </div>
       </section>
