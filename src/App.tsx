@@ -49,7 +49,7 @@ function App() {
               </p>
               <div className="flex justify-center space-x-4">
                 <a 
-                  href="mailto:beta@movingbox.ai"
+                  href="https://testflight.apple.com/join/udJ6tSQ8"
                   className="inline-flex items-center px-6 py-3 rounded-lg bg-black dark:bg-white text-white dark:text-black hover:bg-gray-900 dark:hover:bg-gray-100 transition-colors"
                 >
                   Join the MovingBox Beta
@@ -132,7 +132,7 @@ function App() {
           <h2 className="text-3xl font-bold mb-6">Get Started Today</h2>
           <div className="flex justify-center space-x-4">
             <a 
-              href="mailto:beta@movingbox.ai"
+              href="https://testflight.apple.com/join/udJ6tSQ8"
               className="inline-flex items-center px-8 py-4 rounded-lg bg-white text-black dark:bg-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
             >
               Join the MovingBox Beta
