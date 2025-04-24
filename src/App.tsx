@@ -72,7 +72,7 @@ function App() {
               </div>
               <h3 className="text-xl font-semibold mb-4 dark:text-white">AI-Powered Recognition</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Simply take a photo and let our AI identify and document your items automatically.
+                Simply take a photo and let OpenAI Vision identify and document your items automatically.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-sm">
