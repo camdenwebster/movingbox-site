@@ -1,0 +1,119 @@
+---
+title: AI Details
+description: "Learn how MovingBox's AI technology works to identify and document your items"
+---
+
+MovingBox leverages cutting-edge artificial intelligence powered by OpenAI Vision to transform the way you create and maintain your home inventory. Here's how our AI technology works and the benefits it provides.
+
+## How Our AI Works
+
+<Steps>
+  <Step title="Image Capture">
+    When you take a photo of an item, MovingBox captures a high-quality image while optimizing for lighting and focus.
+  </Step>
+  
+  <Step title="Image Processing">
+    The image is resized to 512x512 pixels to optimize for efficient processing before being securely sent to OpenAI's Vision API.
+  </Step>
+  
+  <Step title="Object Recognition">
+    OpenAI's model identifies the object, its category, brand, model, and physical characteristics with remarkable accuracy.
+  </Step>
+  
+  <Step title="Data Extraction">
+    The system extracts relevant information such as serial numbers, model numbers, and other identifying features when visible.
+  </Step>
+  
+  <Step title="Value Estimation">
+    For many common items, our AI can provide an approximate market value based on current market data.
+  </Step>
+</Steps>
+
+<Note>
+  Photos are processed in real-time and immediately deleted after analysis, ensuring your privacy and data security.
+</Note>
+
+## OpenAI Model and Processing
+
+MovingBox uses OpenAI's `gpt-4o-mini` model for image analysis. During our testing, we found this model provides excellent recognition accuracy while offering significantly faster processing times compared to larger models.
+
+<CardGroup cols={2}>
+  <Card title="Image Optimization" icon="compress">
+    Images are resized to 512x512 pixels before processing, as OpenAI processes images in 512x512 blocks. This optimization ensures faster analysis while maintaining recognition accuracy.
+  </Card>
+  <Card title="Processing Efficiency" icon="bolt">
+    By limiting images to a single 512x512 block, analysis is completed significantly faster than with larger images. A 1024x1024 image would take at least 4x as long to analyze.
+  </Card>
+</CardGroup>
+
+## AI Capabilities
+
+Our AI system can recognize and document a wide range of household items:
+
+<CardGroup cols={3}>
+  <Card title="Electronics" icon="laptop">
+    TVs, computers, phones, appliances, and other electronic devices
+  </Card>
+  <Card title="Furniture" icon="couch">
+    Sofas, tables, chairs, beds, and other household furniture
+  </Card>
+  <Card title="Kitchenware" icon="utensils">
+    Appliances, cookware, dishes, and kitchen gadgets
+  </Card>
+  <Card title="Clothing" icon="shirt">
+    Clothing items, shoes, accessories, and jewelry
+  </Card>
+  <Card title="Collectibles" icon="trophy">
+    Art, collectibles, antiques, and memorabilia
+  </Card>
+  <Card title="Tools" icon="screwdriver-wrench">
+    Power tools, hand tools, gardening equipment, and more
+  </Card>
+</CardGroup>
+
+## Recognition Accuracy
+
+Our AI system is continuously improving, with current recognition rates of:
+
+- **General Item Identification**: >90% accuracy
+- **Brand/Model Recognition**: >80% accuracy for items with visible branding
+- **Category Assignment**: >95% accuracy
+- **Value Estimation**: Typically within 10-20% of market value
+
+<Warning>
+  While our AI is highly accurate, we recommend reviewing AI-generated information for critical items, especially for insurance or valuation purposes.
+</Warning>
+
+## Privacy and Security
+
+We take your privacy seriously:
+
+- **No Image Storage**: Your photos are processed and then immediately deleted
+- **Secure Processing**: All data transmission uses end-to-end encryption
+- **Anonymous Analysis**: No personally identifiable information is associated with AI processing
+
+For more information, please review our [Privacy Policy](/privacy).
+
+## Premium vs. Free AI Features
+
+MovingBox offers different AI capabilities based on your plan:
+
+1. **Basic Recognition (Free)**: Available to all users
+   - Identifies common household items
+   - Basic categorization
+   - Limited detail extraction
+
+2. **Advanced Recognition (Premium)**: Available on Premium plans
+   - Enhanced item recognition accuracy
+   - Detailed information extraction
+   - Value estimation
+   - Brand and model identification
+
+## Continuous Improvement
+
+Our AI system gets better with every update:
+
+- Regular model improvements from OpenAI enhance recognition accuracy
+- Expanding database of recognizable items
+- Enhanced detail extraction capabilities
+- More accurate value estimation

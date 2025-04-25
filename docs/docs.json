@@ -41,6 +41,13 @@
               "03-support/getting-help",
               "03-support/feedback"
             ]
+          },
+          {
+            "group": "Legal",
+            "pages": [
+              "04-legal/end-user-license-agreement",
+              "04-legal/privacy-policy"
+            ]
           }
         ]
       }
