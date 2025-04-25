@@ -1,5 +1,5 @@
 import React from 'react';
-import { Camera, Box, Search, Cloud, Star, ChevronDown, ExternalLink } from 'lucide-react';
+import { Camera, Box, Search, ExternalLink } from 'lucide-react';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#features" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">Features</a>
-              <a href="#testimonials" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">Testimonials</a>
+              <a href="https://docs.movingbox.ai" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white" target="_blank" rel="noopener noreferrer">Guide</a>
               <a href="#download" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">Download</a>
             </div>
           </div>
@@ -49,10 +49,10 @@ function App() {
               </p>
               <div className="flex justify-center space-x-4">
                 <a 
-                  href="https://testflight.apple.com/join/udJ6tSQ8"
+                  href="https://apps.apple.com/us/app/movingbox-ai/id6742755218"
                   className="inline-flex items-center px-6 py-3 rounded-lg bg-black dark:bg-white text-white dark:text-black hover:bg-gray-900 dark:hover:bg-gray-100 transition-colors"
                 >
-                  Join the MovingBox Beta
+                  Download on the App Store
                   <ExternalLink className="ml-2 h-5 w-5" />
                 </a>
               </div>
@@ -97,45 +97,16 @@ function App() {
         </div>
       </section>
 
-      {/* Social Proof Section */}
-      <section id="testimonials" className="py-20 dark:bg-gray-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4 dark:text-white">Loved by Users</h2>
-            {/* <div className="flex justify-center items-center space-x-1">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="h-6 w-6 text-yellow-400 fill-current" />
-              ))}
-            </div> */}
-            {/* <p className="text-gray-600 dark:text-gray-300 mt-2">Average 4.8 rating on the App Store</p> */}
-          </div>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-xl">
-              <p className="text-gray-600 dark:text-gray-300 italic mb-4">
-                "MovingBox has completely transformed how I manage my home inventory. The AI recognition is incredibly accurate!"
-              </p>
-              <p className="font-semibold dark:text-white">Sarah M.</p>
-            </div>
-            <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-xl">
-              <p className="text-gray-600 dark:text-gray-300 italic mb-4">
-                "Filing an insurance claim was so much easier with MovingBox's detailed inventory reports."
-              </p>
-              <p className="font-semibold dark:text-white">James R.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Download Section */}
       <section id="download" className="py-20 bg-black text-white dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Get Started Today</h2>
           <div className="flex justify-center space-x-4">
             <a 
-              href="https://testflight.apple.com/join/udJ6tSQ8"
+              href="https://apps.apple.com/us/app/movingbox-ai/id6742755218"
               className="inline-flex items-center px-8 py-4 rounded-lg bg-white text-black dark:bg-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
             >
-              Join the MovingBox Beta
+              Download on the App Store
               <ExternalLink className="ml-2 h-5 w-5" />
             </a>
           </div>
@@ -164,7 +135,6 @@ function App() {
               <h3 className="text-white font-semibold mb-4">Product</h3>
               <ul className="space-y-2">
                 <li><a href="#features" className="hover:text-white">Features</a></li>
-                <li><a href="#testimonials" className="hover:text-white">Testimonials</a></li>
                 <li><a href="#download" className="hover:text-white">Download</a></li>
               </ul>
             </div>
@@ -172,8 +142,8 @@ function App() {
               <h3 className="text-white font-semibold mb-4">Company</h3>
               <ul className="space-y-2">
                 <li><a href="https://mothersound.dev" className="hover:text-white" target="_blank" rel="noopener noreferrer">About</a></li>
-                <li><a href="https://github.com/camdenwebster/MovingBox/blob/main/PRIVACY_POLICY.md" className="hover:text-white" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
-                <li><a href="https://github.com/camdenwebster/MovingBox/blob/main/EULA.md" className="hover:text-white" target="_blank" rel="noopener noreferrer">Terms of Service</a></li>
+                <li><a href="https://docs.movingbox.ai/04-legal/privacy-policy" className="hover:text-white" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+                <li><a href="https://docs.movingbox.ai/04-legal/end-user-license-agreement" className="hover:text-white" target="_blank" rel="noopener noreferrer">Terms of Service</a></li>
               </ul>
             </div>
             <div>
