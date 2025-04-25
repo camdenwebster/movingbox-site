@@ -1,0 +1,79 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "MovingBox",
+  "description": "MovingBox is a powerful tool that helps you manage your moving process with ease. From organizing your items to tracking your progress, MovingBox has everything you need to make your move stress-free.",
+  "colors": {
+    "primary": "#4EB86F",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "User Guide",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "01-getting-started/introduction",
+              "01-getting-started/quickstart",
+              "01-getting-started/core-features",
+              "01-getting-started/ai-details",
+              "01-getting-started/use-cases"
+            ]
+          },
+          {
+            "group": "How to Guides",
+            "pages": [
+              "02-how-to/app-navigation",
+              "02-how-to/work-with-items",
+              "02-how-to/organize-items",
+              "02-how-to/customize-home-details"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "03-support/troubleshooting",
+              "03-support/faq",
+              "03-support/getting-help",
+              "03-support/feedback"
+            ]
+          },
+          {
+            "group": "Legal",
+            "pages": [
+              "04-legal/end-user-license-agreement",
+              "04-legal/privacy-policy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@movingbox.ai"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Download on the App Store",
+      "href": "https://apps.apple.com/us/app/movingbox-ai/id6742755218"
+    }
+  },
+  "footer": {
+    "socials": {
+      "website": "https://movingbox.ai",
+      "github": "https://github.com/camdenwebster/MovingBox"
+    }
+  }
+}
