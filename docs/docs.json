@@ -1,9 +1,10 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "MovingBox",
+  "description": "MovingBox is a powerful tool that helps you manage your moving process with ease. From organizing your items to tracking your progress, MovingBox has everything you need to make your move stress-free.",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#4EB86F",
     "light": "#07C983",
     "dark": "#15803D"
   },
@@ -11,71 +12,39 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "User Guide",
         "groups": [
           {
             "group": "Getting Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "core-features",
-              "use-cases"
+              "01-getting-started/introduction",
+              "01-getting-started/quickstart",
+              "01-getting-started/core-features",
+              "01-getting-started/ai-details",
+              "01-getting-started/use-cases"
             ]
           },
           {
             "group": "How to Guides",
             "pages": [
-              "how-to/app-navigation",
-              "how-to/work-with-items",
-              "how-to/organize-items",
-              "how-to/customize-home-details",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+              "02-how-to/app-navigation",
+              "02-how-to/work-with-items",
+              "02-how-to/organize-items",
+              "02-how-to/customize-home-details"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Support",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "03-support/troubleshooting",
+              "03-support/faq",
+              "03-support/getting-help",
+              "03-support/feedback"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -85,20 +54,19 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@movingbox.ai"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Download on the App Store",
+      "href": "https://apps.apple.com/us/app/movingbox-ai/id6742755218"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://movingbox.ai",
+      "github": "https://github.com/camdenwebster/MovingBox"
     }
   }
 }
