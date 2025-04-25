@@ -30,17 +30,8 @@ function App() {
         <div className="max-w-7xl mx-auto">
           {/* Changed from grid to flex with column direction */}
           <div className="flex flex-col items-center text-center">
-            {/* Image now comes first */}
-            <div className="relative mb-10">
-              <img 
-                src="/images/hero.png"
-                alt="iPhone with MovingBox app"
-                className="max-w-full h-auto"
-              />
-            </div>
-            
-            {/* Text content below the image */}
-            <div className="max-w-2xl">
+            {/* Text content now comes first */}
+            <div className="max-w-2xl mb-10">
               <h1 className="text-5xl font-bold leading-tight text-gray-900 dark:text-white mb-6">
                 Turn Photos into Peace of Mind
               </h1>
@@ -56,6 +47,15 @@ function App() {
                   <ExternalLink className="ml-2 h-5 w-5" />
                 </a>
               </div>
+            </div>
+            
+            {/* Image now comes after the text */}
+            <div className="relative">
+              <img 
+                src="/images/hero.png"
+                alt="iPhone with MovingBox app"
+                className="max-w-full h-auto"
+              />
             </div>
           </div>
         </div>
