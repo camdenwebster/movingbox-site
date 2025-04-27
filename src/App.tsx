@@ -52,9 +52,14 @@ function App() {
             {/* Image now comes after the text */}
             <div className="relative">
               <img 
-                src="/images/hero.png"
+                src="/images/hero-light.png"
                 alt="iPhone with MovingBox app"
-                className="max-w-full h-auto"
+                className="max-w-full h-auto dark:hidden"
+              />
+              <img 
+                src="/images/hero-dark.png"
+                alt="iPhone with MovingBox app"
+                className="max-w-full h-auto hidden dark:block"
               />
             </div>
           </div>
