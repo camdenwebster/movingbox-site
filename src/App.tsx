@@ -51,16 +51,18 @@ function App() {
             
             {/* Image now comes after the text */}
             <div className="relative">
-              <img 
-                src="/images/hero-light.png"
-                alt="iPhone with MovingBox app"
-                className="max-w-full h-auto dark:hidden"
-              />
-              <img 
-                src="/images/hero-dark.png"
-                alt="iPhone with MovingBox app"
-                className="max-w-full h-auto hidden dark:block"
-              />
+              <picture>
+                <source srcSet="/images/hero-light.webp" type="image/webp" media="(prefers-color-scheme: light)" />
+                <source srcSet="/images/hero-light.png" type="image/png" media="(prefers-color-scheme: light)" />
+                <source srcSet="/images/hero-dark.webp" type="image/webp" media="(prefers-color-scheme: dark)" />
+                <source srcSet="/images/hero-dark.png" type="image/png" media="(prefers-color-scheme: dark)" />
+                {/* Default image (light mode) */}
+                <img 
+                  src="/images/hero-light.png"
+                  alt="iPhone with MovingBox app"
+                  className="max-w-full h-auto"
+                />
+              </picture>
             </div>
           </div>
         </div>
