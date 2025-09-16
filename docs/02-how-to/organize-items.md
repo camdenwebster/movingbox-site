@@ -1,0 +1,200 @@
+---
+title: Organize Your Inventory
+description: "Learn how to organize your inventory with locations and labels"
+---
+
+MovingBox provides flexible ways to organize your items. This guide will show you how to use locations and labels to keep your inventory organized and easy to navigate.
+
+## Locations
+
+Locations allow you to track where your items are stored in your home or other properties.
+
+### Creating Locations
+
+<Steps>
+  <Step title="Access Locations">
+    Tap the "Locations" tab in the bottom navigation bar
+  </Step>
+  
+  <Step title="Add New Location">
+    Tap the "+" button in the top-right corner
+  </Step>
+  
+  <Step title="Enter Location Details">
+    - Name your location (e.g., "Living Room", "Kitchen", "Storage Unit")
+    - Optionally add a description
+    - You can also add a photo of the location
+  </Step>
+  
+  <Step title="Save Location">
+    Tap "Save" to create the location
+  </Step>
+</Steps>
+
+### Assigning Items to Locations
+
+<Steps>
+  <Step title="Method 1: During Item Creation">
+    When adding a new item, select the appropriate location before saving
+  </Step>
+  
+  <Step title="Method 2: From Item Details">
+    1. Open an existing item
+    2. Tap "Edit"
+    3. Tap the "Location" field
+    4. Select the desired location
+    5. Tap "Save"
+  </Step>
+  
+  <Step title="Method 3: Create Item Within Location">
+    1. Navigate to the Locations tab and select a location
+    2. Tap the "+" button in the top right corner
+    3. The "Location" field should automatically contain the location selected in step 1
+  </Step>
+</Steps>
+
+## Labels
+
+Labels provide the primary way to categorize your items in MovingBox. Each item can have one label assigned to it.
+
+### About Labels
+
+Each label in MovingBox consists of:
+- A name (e.g., "Electronics", "Furniture", "Valuable")
+- A color for visual identification
+- An emoji that represents the label's purpose
+
+### Creating Labels
+
+<Steps>
+  <Step title="Access Labels">
+    - Tap the "Settings" icon in the tab bar
+    - Select "Label Settings" from the menu
+  </Step>
+  
+  <Step title="Add New Label">
+    Tap the "+" button to create a new label
+  </Step>
+  
+  <Step title="Configure Label">
+    - Enter a name for your label
+    - Select a color for visual identification
+    - Choose an emoji that represents the label's purpose
+  </Step>
+  
+  <Step title="Save">
+    Tap "Save" to create the label
+  </Step>
+</Steps>
+
+### Popular Label Uses
+
+<CardGroup :cols="2">
+  <Card title="Item Categories" icon="folder-tree">
+    Create labels for item types like "Electronics," "Furniture," or "Clothing"
+  </Card>
+  <Card title="Value Indicators" icon="money-bill">
+    Use labels like "Valuable," "Moderate Value," or "Insured"
+  </Card>
+  <Card title="Ownership" icon="user">
+    Labels such as "John's," "Mary's," or "Shared" to track item ownership
+  </Card>
+  <Card title="Condition" icon="star-half">
+    Mark items as "New," "Good Condition," or "Needs Repair"
+  </Card>
+</CardGroup>
+
+### Applying a Label to an Item
+
+<Steps>
+  <Step title="Item Labeling">
+    1. Open an item in edit mode
+    2. Tap the "Label" field
+    3. Select one label from the list
+    4. Tap "Save"
+  </Step>
+</Steps>
+
+::: note
+Each item can have only one label. If you assign a new label to an item, it will replace any existing label.
+:::
+
+## Filtering and Sorting
+
+Once your items are organized, you can use filters and sorting to find what you need quickly.
+
+### Filtering Your Inventory
+
+<div className="grid grid-cols-2 gap-4">
+  <div>
+    <h4>Filtering Options</h4>
+    <p>From the Items list, tap the filter icon to access filtering options:</p>
+    <ul>
+      <li>Filter by location</li>
+      <li>Filter by label</li>
+      <li>Filter by value range</li>
+      <li>Filter by date added</li>
+      <li>Combine multiple filters</li>
+    </ul>
+  </div>
+  <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md">
+    <h4>Saving Filters</h4>
+    <p>Premium users can save frequently used filters:</p>
+    <ol>
+      <li>Set up your desired filters</li>
+      <li>Tap "Save Filter" at the bottom</li>
+      <li>Name your saved filter</li>
+      <li>Access saved filters from the filter menu</li>
+    </ol>
+  </div>
+</div>
+
+### Sorting Options
+
+Tap the sort button to arrange items by:
+- Name (A-Z or Z-A)
+- Date added (newest or oldest)
+- Value (high to low or low to high)
+- Label
+- Location
+
+## Collections (Premium Feature)
+
+Collections allow you to group items together for specific purposes without changing their locations.
+
+### Creating a Collection
+
+1. Tap your profile icon
+2. Select "Collections"
+3. Tap "+" to create a new collection
+4. Name your collection and add an optional description
+5. Tap "Save"
+
+### Adding Items to a Collection
+
+1. From the Items list, select one or more items
+2. Tap "Add to Collection"
+3. Choose the desired collection
+4. Tap "Add"
+
+::: note
+Items can belong to multiple collections simultaneously, making this feature flexible for various organizational needs.
+:::
+
+## Best Practices for Organization
+
+::: details Create a Consistent Structure
+Develop a logical organization system and stick to it. For example, use locations for physical placement and labels for item categorization or status.
+:::
+
+::: details Start Simple
+Begin with basic locations like rooms to organize your inventory effectively.
+:::
+
+::: details Use Purpose-Driven Labels
+Since you can only assign one label per item, choose your labels carefully based on your most important organizational needs.
+:::
+
+::: details Regular Maintenance
+Review your organizational system periodically and update it as your needs change. Remove unused labels and consider reorganizing as your collection grows.
+:::

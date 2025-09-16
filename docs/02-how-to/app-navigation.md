@@ -1,0 +1,95 @@
+---
+title: App Navigation
+description: "Learn how to navigate the MovingBox app and understand its main interface elements"
+---
+
+MovingBox is designed with an intuitive navigation system to help you manage your inventory efficiently. This guide will help you understand the app's layout and how to navigate between different sections.
+
+## Main Navigation
+
+MovingBox is organized into four main sections, all accessible from the bottom navigation bar:
+
+### Dashboard
+
+::: note
+The Dashboard is your central hub that provides an at-a-glance view of your inventory.
+:::
+
+From your Dashboard, you can:
+- View a summary of your complete inventory
+- See your total estimated inventory value
+- Access inventory statistics organized by location
+- Access inventory statistics organized by label
+
+
+### Locations
+
+::: note
+The Locations tab organizes your items based on where they are stored.
+:::
+
+In this section, you can:
+- Browse locations (rooms, storage units, etc.)
+- View all items within a specific location
+- Add new locations or edit existing ones
+- See the number of items and total value per location
+
+### Item Management
+
+::: note
+The central "+" button opens the item adding interface, where AI-powered features help document your belongings.
+:::
+
+When adding items, you can:
+- Take photos to automatically identify items
+- Review and edit AI-generated item details
+- Manually add items without using AI
+- Assign locations and categories
+- Add custom notes and purchase information
+
+### Item List
+
+::: note
+The Item List provides a complete view of your entire inventory in one place.
+:::
+
+Features in the Item List include:
+- Browse all items in a sortable list
+- Search for specific items using keywords
+- Filter items by category, location, or value range
+- Sort items by name, date added, or estimated value
+
+## Navigation Gestures
+
+MovingBox uses standard iOS gestures for intuitive navigation:
+
+| Gesture | Action |
+|---------|--------|
+| Swipe left/right | Navigate between items in detail view |
+| Swipe down | Dismiss a detail screen and return to previous view |
+| Long press | Select multiple items for batch operations |
+| Pull down | Refresh content in any list view |
+
+## Common Tasks
+
+### Finding Items Quickly
+
+1. Tap the search icon at the top of the Items or Locations screen
+2. Enter keywords related to the item you're looking for
+3. Use the filter button to narrow results by category, location, or value
+
+### Organizing Your Inventory
+
+Effective organization makes managing your inventory easier:
+
+- **Categories**: Group similar items (Electronics, Furniture, etc.)
+- **Locations**: Track where items are stored (Living Room, Storage, etc.)
+- **Labels**: Create custom tags for specific purposes (Insurance, Moving, etc.)
+- **Collections**: Group items together for specific projects or purposes
+
+### Viewing Item Details
+
+To see complete information about any item:
+
+1. Tap the item from any list view
+2. View or edit detailed information

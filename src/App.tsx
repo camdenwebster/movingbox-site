@@ -1,5 +1,5 @@
 import React from 'react';
-import { Camera, Box, Search, ExternalLink } from 'lucide-react';
+import { Camera, Box, Cloud, ExternalLink, Sparkles, FileImage, Move, Archive } from 'lucide-react';
 
 function App() {
   return (
@@ -36,7 +36,7 @@ function App() {
                 Turn Photos into Peace of Mind
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                Let AI transform your home inventory management into a quick, effortless experience. Just snap photos, and we'll do the rest.
+                Let AI make your home inventory management effortless. 
               </p>
               <div className="flex justify-center space-x-4">
                 <a 
@@ -71,7 +71,7 @@ function App() {
       {/* Features Section */}
       <section id="features" className="py-20 bg-gray-50 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-16 dark:text-white">Powerful Features</h2>
+          <h2 className="text-3xl font-bold text-center mb-16 dark:text-white">Protect What Matters</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-sm">
               <div className="bg-green-100 dark:bg-green-900 w-12 h-12 flex items-center justify-center rounded-lg mb-6">
@@ -79,25 +79,52 @@ function App() {
               </div>
               <h3 className="text-xl font-semibold mb-4 dark:text-white">AI-Powered Recognition</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Simply take a photo and let OpenAI Vision identify and document your items automatically.
+                Simply take a photo and let AI identify and document your items automatically.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-sm">
               <div className="bg-blue-100 dark:bg-blue-900 w-12 h-12 flex items-center justify-center rounded-lg mb-6">
                 <Box className="h-6 w-6 text-blue-600 dark:text-blue-400" />
               </div>
-              <h3 className="text-xl font-semibold mb-4 dark:text-white">Detailed Cataloging</h3>
+              <h3 className="text-xl font-semibold mb-4 dark:text-white">Comprehensive Cataloging</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Capture descriptions, quantities, and identifying information with zero manual input.
+                Track 15+ properties including purchase details, warranty info, dimensions, and moving priorities.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-sm">
               <div className="bg-purple-100 dark:bg-purple-900 w-12 h-12 flex items-center justify-center rounded-lg mb-6">
-                <Search className="h-6 w-6 text-purple-600 dark:text-purple-400" />
+                <Cloud className="h-6 w-6 text-purple-600 dark:text-purple-400" />
               </div>
-              <h3 className="text-xl font-semibold mb-4 dark:text-white">Smart Search</h3>
+              <h3 className="text-xl font-semibold mb-4 dark:text-white">Private Sync & Storage</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Find any item in your inventory instantly with our powerful search functionality.
+                All data is safely stored in your private iCloud - no extra logins required.
+              </p>
+            </div>
+            <div className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-sm">
+              <div className="bg-indigo-100 dark:bg-indigo-900 w-12 h-12 flex items-center justify-center rounded-lg mb-6">
+                <FileImage className="h-6 w-6 text-indigo-600 dark:text-indigo-400" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4 dark:text-white">Multiple Photos & Documents</h3>
+              <p className="text-gray-600 dark:text-gray-300">
+                Capture items from different angles and attach PDFs of receipts and warranties for complete documentation.
+              </p>
+            </div>
+            <div className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-sm">
+              <div className="bg-rose-100 dark:bg-rose-900 w-12 h-12 flex items-center justify-center rounded-lg mb-6">
+                <Move className="h-6 w-6 text-rose-600 dark:text-rose-400" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4 dark:text-white">Bulk Operations</h3>
+              <p className="text-gray-600 dark:text-gray-300">
+                Select multiple items at once for bulk moves, re-labeling, and deletion with smart selection filters.
+              </p>
+            </div>
+            <div className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-sm">
+              <div className="bg-teal-100 dark:bg-teal-900 w-12 h-12 flex items-center justify-center rounded-lg mb-6">
+                <Archive className="h-6 w-6 text-teal-600 dark:text-teal-400" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4 dark:text-white">Advanced Export & Reports</h3>
+              <p className="text-gray-600 dark:text-gray-300">
+                Create selective exports with ZIP archives containing photos and CSV data for insurance claims.
               </p>
             </div>
           </div>
@@ -149,8 +176,8 @@ function App() {
               <h3 className="text-white font-semibold mb-4">Company</h3>
               <ul className="space-y-2">
                 <li><a href="https://mothersound.dev" className="hover:text-white" target="_blank" rel="noopener noreferrer">About</a></li>
-                <li><a href="https://docs.movingbox.ai/04-legal/privacy-policy" className="hover:text-white" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
-                <li><a href="https://docs.movingbox.ai/04-legal/end-user-license-agreement" className="hover:text-white" target="_blank" rel="noopener noreferrer">Terms of Service</a></li>
+                <li><a href="/docs/04-legal/privacy-policy" className="hover:text-white">Privacy Policy</a></li>
+                <li><a href="/docs/04-legal/end-user-license-agreement" className="hover:text-white">Terms of Service</a></li>
               </ul>
             </div>
             <div>
@@ -165,6 +192,20 @@ function App() {
           </div>
         </div>
       </footer>
+
+      {/* Intercom Integration */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.intercomSettings = {
+              api_base: "https://widget.intercom.io",
+              app_id: "YOUR_INTERCOM_APP_ID"
+            };
+            
+            (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/YOUR_INTERCOM_APP_ID';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+          `
+        }}
+      />
     </div>
   );
 }

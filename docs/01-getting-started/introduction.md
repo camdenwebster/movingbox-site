@@ -18,7 +18,7 @@ description: "Welcome to MovingBox - home inventory powered by AI"
 
 Get your inventory projected started in no time.
 
-<CardGroup cols={2}>
+<CardGroup :cols="2">
     <Card
     title="Catalog your items using AI"
     icon="brain"
