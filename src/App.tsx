@@ -150,7 +150,7 @@ function App() {
               <ul className="space-y-2">
                 <li><a href="https://mothersound.dev" className="hover:text-white" target="_blank" rel="noopener noreferrer">About</a></li>
                 <li><a href="https://docs.movingbox.ai/04-legal/privacy-policy" className="hover:text-white" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
-                <li><a href="https://docs.movingbox.ai/04-legal/end-user-license-agreement" className="hover:text-white" target="_blank" rel="noopener noreferrer">Terms of Service</a></li>
+                <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" className="hover:text-white" target="_blank" rel="noopener noreferrer">Terms of Service</a></li>
               </ul>
             </div>
             <div>
