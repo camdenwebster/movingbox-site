@@ -39,7 +39,7 @@ function App() {
                 Insurance companies deny claims without proof.
               </p>
               <p className="text-xl md:text-2xl font-semibold text-gray-900 dark:text-white mb-8">
-                MovingBox creates that proof in seconds—just take photos.
+                MovingBox creates that proof in seconds. Just take photos.
               </p>
               <div className="flex justify-center space-x-4">
                 <a
@@ -89,7 +89,7 @@ function App() {
                 Save Hours of Time
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Document your entire home in minutes, not hours. MovingBox identifies items instantly—no typing required.
+                Document your entire home in minutes, not hours. MovingBox identifies items instantly (no typing required).
               </p>
             </div>
 
@@ -283,7 +283,7 @@ function App() {
                     Extracts Details from Photos
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Automatically captures brand, model, serial numbers—even from photos.
+                    Automatically captures brand, model, serial numbers from photos.
                   </p>
                 </div>
               </div>
@@ -325,7 +325,7 @@ function App() {
                     Insurance-Ready Reports in Seconds
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Export professional ZIP archives with photos and values—ready for insurance claims or moving companies.
+                    Export professional ZIP archives with photos and values. Ready for insurance claims or moving companies.
                   </p>
                 </div>
               </div>
