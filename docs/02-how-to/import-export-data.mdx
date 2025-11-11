@@ -1,0 +1,292 @@
+---
+title: Import & Export Data
+description: "Learn how to backup, export, and import your MovingBox inventory data"
+---
+
+This guide covers how to export your inventory data for backup or sharing purposes, and how to import data back into MovingBox.
+
+## Understanding Import & Export
+
+MovingBox's import/export feature allows you to:
+
+- **Create backups** of your entire inventory including photos
+- **Transfer data** between devices or to other applications
+- **Share inventory lists** with moving companies, insurance providers, or family members
+- **Selectively export** specific items for focused reports
+
+### Export Format
+
+When you export data, MovingBox creates a ZIP archive containing:
+
+- **inventory.csv** - Your items with all properties (title, description, quantity, price, serial numbers, etc.)
+- **locations.csv** - All your locations with descriptions
+- **labels.csv** - All your labels with colors and emojis
+- **photos/** folder - All photos associated with your items and locations
+
+<Note>
+  Exports are in standard CSV format, making them compatible with spreadsheet applications like Excel, Google Sheets, and Numbers.
+</Note>
+
+### Sample Export File
+
+Want to see what a MovingBox export looks like? Download our example file to explore the format:
+
+<Card title="Download Sample Export" icon="download" href="https://movingbox.ai/MovingBox-export-example.zip">
+  Download an example MovingBox export ZIP file containing sample inventory data, locations, labels, and photos
+</Card>
+
+## Exporting Your Data
+
+### Exporting All Inventory
+
+<Steps>
+  <Step title="Open Settings">
+    Navigate to the Settings tab from the bottom navigation bar
+  </Step>
+
+  <Step title="Select Export Data">
+    Scroll down and tap "Export Data" in the Data Management section
+  </Step>
+
+  <Step title="Choose What to Export">
+    Select which types of data to include in your export:
+    - **Export Items** - Include all your inventory items
+    - **Export Locations** - Include all locations
+    - **Export Labels** - Include all labels
+
+    <Tip>
+      Toggle on only what you need. For example, if you only want to share your items list without locations, turn off "Export Locations" and "Export Labels"
+    </Tip>
+  </Step>
+
+  <Step title="Start Export">
+    Tap the green "Export Data" button to begin the export process
+  </Step>
+
+  <Step title="Share or Save">
+    Once the export is complete, use the share sheet to:
+    - Save to Files app for local backup
+    - Upload to cloud storage (iCloud Drive, Dropbox, Google Drive, etc.)
+    - Email to yourself or others
+    - Share via AirDrop
+  </Step>
+</Steps>
+
+### Exporting Selected Items
+
+You can export specific items directly from your inventory list:
+
+<Steps>
+  <Step title="Open Inventory List">
+    Navigate to your items list view
+  </Step>
+
+  <Step title="Enter Selection Mode">
+    Tap the selection icon (circle with checkmark) in the toolbar to enable multi-select mode
+  </Step>
+
+  <Step title="Select Items">
+    Tap on each item you want to export to select them
+  </Step>
+
+  <Step title="Export Selection">
+    Tap the export button in the toolbar to create a ZIP file containing only the selected items
+
+    <Note>
+      When exporting selected items, all locations and labels are included to maintain data relationships
+    </Note>
+  </Step>
+
+  <Step title="Share Your Export">
+    Use the share sheet to save or send your selective export
+  </Step>
+</Steps>
+
+## Importing Data
+
+<Warning>
+  The import process **does not check for duplicates**. Importing the same file multiple times will create duplicate items, locations, and labels in your inventory.
+</Warning>
+
+### Importing from a Backup
+
+<Steps>
+  <Step title="Open Settings">
+    Navigate to the Settings tab from the bottom navigation bar
+  </Step>
+
+  <Step title="Select Import Data">
+    Scroll down and tap "Import Data" in the Data Management section
+  </Step>
+
+  <Step title="Choose What to Import">
+    Select which types of data to import:
+    - **Import Items** - Restore your inventory items
+    - **Import Locations** - Restore locations
+    - **Import Labels** - Restore labels
+
+    <Tip>
+      If you only want to import locations from another inventory without adding the items, toggle off "Import Items" and keep only "Import Locations" enabled
+    </Tip>
+  </Step>
+
+  <Step title="Review Warning">
+    Read the duplicate data warning carefully and tap "Continue" if you're ready to proceed
+  </Step>
+
+  <Step title="Select ZIP File">
+    Choose the MovingBox export ZIP file from your device:
+    - Files app
+    - iCloud Drive
+    - Downloads folder
+    - Any other accessible location
+  </Step>
+
+  <Step title="Monitor Progress">
+    The import process will show progress as it:
+    - Extracts the ZIP file
+    - Imports locations and labels first
+    - Imports items with their relationships
+    - Copies photos to your device
+  </Step>
+
+  <Step title="Review Results">
+    When complete, you'll see a summary showing:
+    - Number of items imported
+    - Number of locations imported
+    - Number of labels imported
+  </Step>
+</Steps>
+
+## Best Practices
+
+<AccordionGroup>
+  <Accordion title="Regular Backups">
+    Export your inventory regularly, especially:
+    - After adding many new items
+    - Before major updates to the app
+    - Before switching devices
+    - At least monthly for peace of mind
+
+    Store backups in multiple locations (cloud storage + local) for redundancy.
+  </Accordion>
+
+  <Accordion title="Organized Export Files">
+    Name your export files descriptively with dates:
+    - `MovingBox-Full-Backup-2025-01-15.zip`
+    - `MovingBox-Garage-Items-2025-01-15.zip`
+
+    The app automatically includes timestamps, but you can rename files after exporting.
+  </Accordion>
+
+  <Accordion title="Avoiding Duplicates">
+    Since imports don't check for duplicates:
+    - Keep track of what you've already imported
+    - Delete old data before re-importing if needed
+    - Use selective exports to avoid importing everything multiple times
+    - Consider creating a test inventory to preview imports
+  </Accordion>
+
+  <Accordion title="Sharing with Others">
+    When sharing inventory data:
+    - Export only what's necessary (use toggles to exclude sensitive data)
+    - Remove personal notes or sensitive information before exporting if needed
+    - Remember that photos are included in exports
+    - Consider selective exports for sharing specific rooms or categories
+  </Accordion>
+</AccordionGroup>
+
+## Compatibility & Limitations
+
+### What Can Be Imported
+
+MovingBox can **only import CSV files that were previously exported from MovingBox**. The import feature is designed for:
+
+- Restoring your own backups
+- Transferring data between your devices
+- Importing data you've previously exported
+
+### What Cannot Be Imported
+
+- Generic CSV files from other applications
+- Spreadsheets created manually
+- Exports from other inventory apps
+- Modified CSV files (editing exported files may cause import errors)
+
+<Tip>
+  If you need to import data from another source, export a sample from MovingBox first to understand the required CSV format, then format your external data to match.
+</Tip>
+
+## Troubleshooting
+
+<AccordionGroup>
+  <Accordion title="Import Failed or Incomplete">
+    If your import fails or doesn't complete:
+
+    - **Check file size**: Very large exports may take time to process
+    - **Verify the file**: Ensure the ZIP file isn't corrupted
+    - **Check available storage**: Make sure you have enough space for photos
+    - **Try selective import**: Import data types separately (locations first, then items)
+    - **Cancel and retry**: Use the cancel button and try again
+  </Accordion>
+
+  <Accordion title="Missing Photos After Import">
+    If photos are missing after import:
+
+    - Verify photos were in the original export's `photos/` folder
+    - Check that the ZIP file structure is intact
+    - Ensure photo filenames match the CSV references
+    - Confirm you have storage space available
+  </Accordion>
+
+  <Accordion title="Cannot Access Exported File">
+    If you can't open or import your export:
+
+    - Make sure the file has `.zip` extension
+    - Verify file permissions if stored in cloud storage
+    - Try downloading to local storage first
+    - Check that the file isn't still being synced or uploaded
+  </Accordion>
+
+  <Accordion title="Export Button Disabled">
+    If you can't start an export:
+
+    - Ensure at least one export option is enabled (Items, Locations, or Labels)
+    - Check that you have data to export (can't export empty inventory)
+    - Make sure another export isn't already in progress
+  </Accordion>
+</AccordionGroup>
+
+## Use Cases
+
+### Moving to a New Home
+
+1. Export your full inventory before the move
+2. Share with moving company for estimates
+3. Use during packing to verify everything is accounted for
+4. Import on your new device after the move
+
+### Insurance Documentation
+
+1. Export full inventory with all photos
+2. Save to secure cloud storage
+3. Share with insurance provider as needed
+4. Update and re-export when adding valuable items
+
+### Device Transfer
+
+1. Export from old device
+2. Install MovingBox on new device
+3. Import the backup
+4. Verify all data transferred correctly
+
+### Sharing with Family
+
+1. Use selective export for specific rooms or categories
+2. Share ZIP file via AirDrop or email
+3. Family members can import into their own MovingBox app
+4. Maintain separate inventories while sharing common data
+
+<Note>
+  Need help with import/export issues? Visit our [support page](/03-support/getting-help) for additional assistance.
+</Note>

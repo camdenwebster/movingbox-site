@@ -13,7 +13,7 @@ MovingBox leverages cutting-edge artificial intelligence powered by OpenAI Visio
   </Step>
   
   <Step title="Image Processing">
-    The image is resized to 512x512 pixels to optimize for efficient processing before being securely sent to OpenAI's Vision API.
+    For standard users, images are resized to 512x512 pixels for efficient processing. MovingBox Pro users benefit from high-resolution processing up to 1250x1250 pixels for enhanced detail recognition.
   </Step>
   
   <Step title="Object Recognition">
@@ -35,14 +35,18 @@ MovingBox leverages cutting-edge artificial intelligence powered by OpenAI Visio
 
 ## OpenAI Model and Processing
 
-MovingBox uses OpenAI's `gpt-4o-mini` model for image analysis. During our testing, we found this model provides excellent recognition accuracy while offering significantly faster processing times compared to larger models.
+MovingBox 2.0 uses different OpenAI models based on your subscription:
+- **Standard users**: OpenAI's `gpt-4o` model for high-quality image analysis
+- **MovingBox Pro users**: OpenAI's `gpt-5-mini` model for the most advanced recognition capabilities
+
+During our testing, we found these models provide excellent recognition accuracy with optimized processing times.
 
 <CardGroup cols={2}>
-  <Card title="Image Optimization" icon="compress">
-    Images are resized to 512x512 pixels before processing, as OpenAI processes images in 512x512 blocks. This optimization ensures faster analysis while maintaining recognition accuracy.
+  <Card title="Standard Processing" icon="compress">
+    Standard users get 512x512 pixel processing with gpt-4o, providing excellent recognition accuracy and fast analysis times.
   </Card>
-  <Card title="Processing Efficiency" icon="bolt">
-    By limiting images to a single 512x512 block, analysis is completed significantly faster than with larger images. A 1024x1024 image would take at least 4x as long to analyze.
+  <Card title="Pro High-Resolution" icon="bolt">
+    MovingBox Pro users get up to 1250x1250 pixel processing with gpt-5-mini for enhanced detail recognition and superior accuracy.
   </Card>
 </CardGroup>
 
@@ -91,21 +95,19 @@ For more information, please review our [Privacy Policy](/privacy).
 MovingBox offers different AI capabilities based on your plan:
 
 1. **Basic Recognition (Free)**: Available to all users
-   - Identifies common household items
-   - Basic categorization
+   - Lower resolution image used in analysis (512x512)
    - Limited detail extraction
+   - Uses gpt-4o model for quick analysis
 
-2. **Advanced Recognition (Premium)**: Available on Premium plans
-   - Enhanced item recognition accuracy
+2. **Advanced Recognition (Pro)**: Available on MovingBox Pro
+   - Higher resolution image used in analysis (1250x1250)
    - Detailed information extraction
-   - Value estimation
-   - Brand and model identification
+   - Uses latest gpt-5-mini model for quick and accurate analysis
 
 ## Continuous Improvement
 
 Our AI system gets better with every update:
 
 - Regular model improvements from OpenAI enhance recognition accuracy
-- Expanding database of recognizable items
 - Enhanced detail extraction capabilities
 - More accurate value estimation
