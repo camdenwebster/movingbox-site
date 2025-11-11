@@ -1,7 +1,8 @@
-import React from 'react';
-import { Camera, Box, Search, ExternalLink, Shield, Clock, DollarSign, FileCheck, Home, TrendingUp, Package, Users, Truck, FileText, Zap, Check } from 'lucide-react';
+import React, { useState } from 'react';
+import { Camera, Box, Search, ExternalLink, Shield, Clock, DollarSign, FileCheck, Home, TrendingUp, Package, Users, Truck, FileText, Zap, Check, Menu, X } from 'lucide-react';
 
 function App() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
       {/* Header/Navigation */}
@@ -9,13 +10,15 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center">
-              <img 
+              <img
                 src="https://raw.githubusercontent.com/camdenwebster/MovingBox/refs/heads/main/icon_shadow.png"
-                alt="MovingBox Logo" 
+                alt="MovingBox Logo"
                 className="h-8 w-8"
               />
               <span className="ml-2 text-xl font-semibold dark:text-white">MovingBox</span>
             </div>
+
+            {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
               <a href="#features" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">Benefits</a>
               <a href="#how-it-works" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">How It Works</a>
@@ -23,8 +26,66 @@ function App() {
               <a href="#pricing" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">Pricing</a>
               <a href="https://docs.movingbox.ai" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white" target="_blank" rel="noopener noreferrer">Guide</a>
             </div>
+
+            {/* Mobile menu button */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="md:hidden p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800"
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
+            </button>
           </div>
         </div>
+
+        {/* Mobile Navigation Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden border-t border-gray-100 dark:border-gray-800">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-gray-900">
+              <a
+                href="#features"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Benefits
+              </a>
+              <a
+                href="#how-it-works"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                How It Works
+              </a>
+              <a
+                href="#use-cases"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Use Cases
+              </a>
+              <a
+                href="#pricing"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Pricing
+              </a>
+              <a
+                href="https://docs.movingbox.ai"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-800"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Guide
+              </a>
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* Hero Section */}
