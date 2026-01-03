@@ -243,7 +243,7 @@ function App() {
               <div>
                 <h3 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">Snap a Photo</h3>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
-                  Take a picture of any item in your home.
+                  Take a picture of any item (or collection of items) in your home.
                 </p>
               </div>
             </div>
@@ -258,7 +258,7 @@ function App() {
               <div>
                 <h3 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">MovingBox Identifies It</h3>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
-                  MovingBox instantly recognizes the item and extracts all the details you need.
+                  MovingBox instantly recognizes the item(s) and extracts all the details you need.
                 </p>
               </div>
             </div>
@@ -512,6 +512,10 @@ function App() {
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start gap-3">
                   <Check className="h-6 w-6 text-white flex-shrink-0 mt-0.5" />
+                  <span className="text-white">Add multiple items from a single photo</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Check className="h-6 w-6 text-white flex-shrink-0 mt-0.5" />
                   <span className="text-white">Unlimited AI scanning</span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -529,6 +533,10 @@ function App() {
                 <li className="flex items-start gap-3">
                   <Check className="h-6 w-6 text-white flex-shrink-0 mt-0.5" />
                   <span className="text-white">Priority new features</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Check className="h-6 w-6 text-white flex-shrink-0 mt-0.5" />
+                  <span className="text-white">Support an independent developer</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="h-6 w-6 text-white flex-shrink-0 mt-0.5" />

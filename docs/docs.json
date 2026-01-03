@@ -19,9 +19,7 @@
             "pages": [
               "01-getting-started/introduction",
               "01-getting-started/quickstart",
-              "01-getting-started/core-features",
-              "01-getting-started/ai-details",
-              "01-getting-started/use-cases"
+              "01-getting-started/core-features"
             ]
           },
           {
@@ -37,16 +35,20 @@
           {
             "group": "Support",
             "pages": [
-              "03-support/troubleshooting",
               "03-support/faq",
-              "03-support/getting-help",
-              "03-support/feedback"
+              "03-support/support-feedback"
             ]
           },
           {
             "group": "Legal",
             "pages": [
               "04-legal/privacy-policy"
+            ]
+          },
+          {          
+            "group": "What's New?",
+            "pages": [
+            "05-release-notes/release-notes"
             ]
           }
         ]
@@ -73,7 +75,10 @@
   "footer": {
     "socials": {
       "website": "https://movingbox.ai",
-      "github": "https://github.com/camdenwebster/MovingBox"
+      "x": "https://x.com/MovingBoxAI",
+      "instagram": "https://www.instagram.com/movingbox.ai/",
+      "bluesky": "https://bsky.app/profile/movingbox.ai",
+      "youtube": "https://www.youtube.com/@MovingBoxAI"
     }
   }
 }
