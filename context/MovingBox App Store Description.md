@@ -1,176 +1,132 @@
 ---
 type:
   - resource
-summary: 
+summary: App Store listing metadata and description for MovingBox
 created: 2025-04-06 16:03
-project: 
-area: 
-tags: 
-url: 
+updated: 2026-01-10
+project:
+area:
+tags:
+url:
 parent: "[[Notes/0 - Inbox/MovingBox|MovingBox]]"
 archived:
 ---
-```
+
+# MovingBox App Store Listing
+
+## Title
+MovingBox: AI Home Inventory
+
+## Subtitle
+Organize and protect your home
+
+## Promotional Text
 Home inventory, simplified. Snap photos and let AI identify, organize, and value your belongings automatically.
 
-  
+## Keywords
+```
+home inventory,ai photo recognition,insurance,moving,organize,possession,valuation,household
+```
 
-MovingBox: AI-Powered Home Inventory
+## Description
 
-  
+Your home has $100K+ in stuff. When disaster strikes, can you prove what you owned?
 
-Turn photos into peace of mind.
+Insurance companies deny claims without proof. MovingBox creates that proof in seconds—just take photos.
 
-  
 
-MovingBox transforms the tedious task of documenting your possessions into a simple point-and-shoot experience. Just aim your camera at any item, and OpenAI Vision instantly identifies, categorizes, and even estimates its value.
+WHY YOU NEED A HOME INVENTORY
+- Get insurance claims approved faster with professional documentation
+- Never lose track of items during moves or storage
+- Know your home's true value for insurance coverage
+- Keep warranty info and receipts in one searchable place
+- Prove ownership for deposits, estates, or disputes
 
-  
-  
 
-WHY MOVINGBOX?
+WHY MOVINGBOX IS DIFFERENT
+Unlike spreadsheets or manual apps, MovingBox uses advanced AI to:
+- Identify items instantly—no typing required
+- Extract brand, model, and serial numbers from photos
+- Estimate replacement values automatically
+- Organize everything by room and category
+- Generate insurance-ready reports in seconds
 
-Traditional home inventories require extensive manual data entry. With MovingBox, the most time-consuming aspects are automated—dramatically reducing the effort needed to create a comprehensive inventory.
 
-- PROTECT YOUR BELONGINGS Ensure you're fully covered in case of theft, damage, or loss with detailed documentation of everything you own.
+KEY BENEFITS
 
-- PREPARE FOR MOVING Organize belongings by room, track boxes during moves, and ensure nothing gets left behind.
+Navigate Your Entire Inventory Effortlessly
+Find any item instantly with powerful search. Work seamlessly across iPhone and iPad.
 
-- SIMPLIFY INSURANCE CLAIMS Generate professional reports instantly to support insurance claims with comprehensive evidence.
+Document Items Completely
+Capture items from multiple angles, scan receipts, store warranties—all in one place.
 
-- TRACK YOUR ASSETS Maintain an accurate record of your possessions' value for financial planning and peace of mind.
+Never Lose Warranty Information
+Automatic expiration tracking ensures you never miss a claim deadline.
 
-  
-  
+Pack Smarter, Move Easier
+Mark fragility levels and destination rooms. Create manifests that actually help movers.
+
+Store Thousands of Photos
+Advanced compression means unlimited items without eating phone storage.
+
+Export Professional Reports
+ZIP archives with photos and values for insurance claims or moving companies.
+
 
 HOW IT WORKS
+1. Snap a photo of any item
+2. AI identifies it and extracts details
+3. Automatic organization by room and type
+4. Instant replacement value estimate
+5. Export reports when you need them
 
-1. SNAP A PHOTO
 
-Take a quick picture of any item in your home.
+PERFECT FOR
+- Homeowners protecting investments
+- Renters documenting for deposits
+- Anyone preparing to move
+- Insurance claim preparation
+- Estate planning and downsizing
+- Small business asset tracking
 
-  
 
-2. AI IDENTIFIES EVERYTHING
+MOVINGBOX (FREE) VS MOVINGBOX PRO
 
-AI powered by OpenAI Vision recognizes the item, including brand, model, and features.
+MovingBox Free
+- AI analysis for up to 50 items
+- One photo per item
+- Full export capabilities
 
-  
+MovingBox Pro
+- Unlimited AI scanning
+- High detail image analysis
+- Up to 5 photos per item for complete documentation
+- Most advanced AI models for better recognition
+- Priority new features
 
-3. AUTOMATIC CATEGORIZATION
+Choose monthly, annual (save 40%), or lifetime access.
 
-Items are instantly sorted by type, room, and value—no manual tagging required.
 
-  
+FEATURED CAPABILITIES
+- AI-powered item recognition
+- Multi-angle photo documentation
+- Purchase date and warranty tracking
+- Replacement cost estimates
+- Dimensions and weight recording
+- Moving priority and fragility levels
+- Receipt and document attachments
+- Bulk operations for room organization
+- Professional ZIP export with photos
+- iCloud sync—no login required
+- Bank-level encryption
 
-4. INSTANT VALUATION
 
-Get estimated replacement costs for insurance or resale purposes.
+GET STARTED IN 30 SECONDS
+Download MovingBox now and protect what matters. Your future self will thank you.
 
-  
-  
+---
 
-KEY FEATURES
+Privacy Policy: movingbox.ai/privacy
+Terms of Use: movingbox.ai/eula
 
-• AI RECOGNITION TECHNOLOGY
-
-Point your camera at anything—from electronics to furniture to kitchen appliances—and watch as MovingBox instantly identifies it with remarkable accuracy.
-
-  
-
-• AUTOMATIC INFORMATION EXTRACTION
-
-MovingBox pulls relevant details like brand, model, color, and materials directly from your photos, eliminating manual data entry.
-
-  
-
-• SMART CATEGORIZATION
-
-Items are automatically organized by type, location, and value, creating a structured inventory without any effort on your part.
-
-  
-
-• VALUE ESTIMATION
-
-Get approximate replacement values based on current market data to ensure proper insurance coverage.
-
-  
-
-• CLOUD SYNC & BACKUP
-
-Your inventory is securely stored and synced across all your devices via iCloud.
-
-  
-
-• SEARCH & FILTER
-
-Quickly find any item in your inventory with powerful search capabilities.
-
-  
-
-• SECURE & PRIVATE
-
-Your data is encrypted and stored securely, accessible only to you.
-
-  
-  
-
-USE CASES
-
-• HOMEOWNERS & RENTERS
-
-Create comprehensive documentation of your possessions for insurance purposes.
-
-  
-
-• FREQUENT MOVERS
-
-Track what you own and where it's packed during transitions.
-
-  
-
-• COLLECTORS
-
-Maintain detailed records of collections with automatic value tracking.
-
-  
-
-• DOWNSIZING SENIORS
-
-Easily catalog possessions when deciding what to keep, sell, or pass down.
-
-  
-
-• SMALL BUSINESS OWNERS
-
-Track office equipment, furniture, and other business assets.
-
-  
-  
-
-SUBSCRIPTION OPTIONS
-
-MovingBox offers a free version with limited features, plus premium subscription options:
-
-• Monthly subscription
-
-• Annual subscription (save over 40%)
-
-• Lifetime access
-
-  
-
-Payment will be charged to your Apple ID account at confirmation of purchase. Subscription automatically renews unless it's canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
-
-  
-
-Privacy Policy: https://movingbox.ai/privacy
-
-Terms of Use: https://movingbox.ai/eula
-
-  
-
-GET STARTED TODAY
-
-Say goodbye to tedious manual inventory work. Download MovingBox now and let AI do the heavy lifting so you can focus on what matters.
-```
+Subscription Info: Payment charged to Apple ID at purchase confirmation. Auto-renews unless canceled 24 hours before period ends. Manage in App Store settings.
